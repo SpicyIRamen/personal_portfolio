@@ -57,6 +57,30 @@
     font-size: 20px;
 }
 
+@media only screen and (max-width: 1075px) {
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .about h2 {
         font-size: 40px;
