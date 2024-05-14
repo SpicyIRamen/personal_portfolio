@@ -20,6 +20,7 @@ function Footer() {
                     <EmailIcon />
                 </Link>
             </div>
+            <p><b>seanchristofferwerner@gmail.com</b></p>
             <p>&copy; 2024 seanwerner.tech</p>
         </div>
     )
