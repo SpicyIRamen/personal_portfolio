@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74143a25.css",
+    "main.js": "/static/js/main.e985b267.js",
+    "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
+    "static/media/GerstnerWavesImg.PNG": "/static/media/GerstnerWavesImg.f9ba3b3cc1243137ebd7.PNG",
+    "index.html": "/index.html",
+    "main.74143a25.css.map": "/static/css/main.74143a25.css.map",
+    "main.e985b267.js.map": "/static/js/main.e985b267.js.map",
+    "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74143a25.css",
+    "static/js/main.e985b267.js"
+  ]
+}
