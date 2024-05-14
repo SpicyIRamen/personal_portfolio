@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +14,15 @@
     }
 
     .project img {
-        width: 700px;
+        width: 50%;
         border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .project video {
+        width: 50%;
+        border-radius: 10px;
+        margin-top: 20px;
     }
 
     .project p {

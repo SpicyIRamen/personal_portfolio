@@ -10,7 +10,10 @@ function ProjectDisplay() {
     return (
         <div className="project">
             <h1>{project.name}</h1>
-            <img src={project.image} alt="Project" />
+            <img src={project.image} alt="project" />
+            <video controls>
+                <source src={project.video} type="video/mp4" alt="project"/>
+            </video>
             <p>
                 <b>Skills:</b> {project.skills}
             </p>
