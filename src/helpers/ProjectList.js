@@ -16,11 +16,11 @@ export const projectList = [
         name: "Roguelite Game",
         image: "../assets/img.PNG",
         skills: "Skill"
-    },
+    },/*
     {
         id: 2,
         name: "Template Project",
         image: "../assets/img.PNG",
         skills: "Skill"
-    },
+    },*/
 ]
