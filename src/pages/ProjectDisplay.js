@@ -7,19 +7,26 @@ import '../styles/ProjectDisplay.css';
 function ProjectDisplay() {
     const { id } = useParams();
     const project = projectList[id];
+
     return (
         <div className="project">
             <h1>{project.name}</h1>
-            <img src={project.image} alt="project" />
-            <video controls>
-                <source src={project.video} type="video/mp4" alt="project"/>
-            </video>
+            <div className="image-gallery">
+                {project.image.map((imgSrc, index) => (
+                    <img key={index} src={imgSrc} alt={`project-${index}`} />
+                ))}
+            </div>
+            {project.video && (
+                <video controls>
+                    <source src={project.video} type="video/mp4" />
+                </video>
+            )}
             <p>
                 <b>Skills:</b> {project.skills}
             </p>
             <GithubIcon />
         </div>
-    )
+    );
 }
 
 export default ProjectDisplay;

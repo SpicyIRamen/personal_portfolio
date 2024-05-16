@@ -22,21 +22,19 @@
     place-items: center;
 }
 
-/* MENU ITEM STYLING */
-
 .projectItem {
     border-radius: 15px;
     width: 300px;
-    height: 100%;
+    height: 85%;
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
+    cursor: pointer;
 }
 
     .projectItem:hover {
         box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
         transition: 0.3s ease-in;
-        cursor: pointer;
     }
 
     .projectItem .bgImage {
@@ -51,6 +49,8 @@
 
     .projectItem h1 {
         font-size: 25px;
+        margin-top: 10px;
+        color: #3e497a;
     }
 
 @media only screen and (max-width: 1300px) {
