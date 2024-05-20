@@ -11,7 +11,7 @@ function Experience() {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="June 2022 - Dec 2023"
+                    date="Jun 2022 - Current"
                     iconStyle={{ background: '#11a83e', color: '#fff' }}
                     icon={<WorkIcon />}
                 >
@@ -23,13 +23,13 @@ function Experience() {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="June 2022 - Dec 2023"
+                    date="Jun 2022 - Mar 2024"
                     iconStyle={{ background: '#11a83e', color: '#fff' }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">.Net Software Engineer - Di&aacute; tom os</h3>
                     <h4 className="vertical-timeline-element-subtitle">Gothenburg, Sweden</h4>
-                    <p>Developing Unity based software for a client in the construction industry</p>
+                    <p>System and software development with Unity framework</p>
 
                 </VerticalTimelineElement>
 
@@ -47,7 +47,7 @@ function Experience() {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="April 2018 - Jun 2022"
+                    date="Apr 2018 - Jun 2022"
                     iconStyle={{ background: '#11a83e', color: '#fff' }}
                     icon={<WorkIcon />}
                 >
