@@ -43,7 +43,7 @@ function Home() {
                         </Link>
                     </Tooltip>
                     <Tooltip title="Download Resume">
-                    <Link href="/experience" onClick={onButtonClick}>
+                    <Link href="" onClick={onButtonClick}>
                         <ResumeIcon />
                         </Link> 
                     </Tooltip>
