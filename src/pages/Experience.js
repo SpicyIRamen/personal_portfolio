@@ -29,7 +29,7 @@ function Experience() {
                 >
                     <h3 className="vertical-timeline-element-title">.Net Software Engineer - Di&aacute; tom os</h3>
                     <h4 className="vertical-timeline-element-subtitle">Gothenburg, Sweden</h4>
-                    <p>System and software development with Unity framework</p>
+                    <p>System and software development with Unity framework, mixed with project management and scrum responsibilities </p>
 
                 </VerticalTimelineElement>
 
