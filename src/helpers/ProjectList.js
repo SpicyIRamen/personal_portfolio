@@ -11,16 +11,4 @@ export const projectList = [
         video: GerstnerVideo,
         skills: "C#"
     },
-    {
-        id: 1,
-        name: "Roguelite Game",
-        image: "../assets/img.PNG",
-        skills: "Skill"
-    },
-    {
-        id: 2,
-        name: "Template Project",
-        image: "../assets/img.PNG",
-        skills: "Skill"
-    },
 ]
